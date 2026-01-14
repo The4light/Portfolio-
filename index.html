@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desire Ogbonna - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Desire</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Case Studies</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Get In Touch</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#">in</a>
+            <a href="#">f</a>
+            <a href="#">tw</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Desire Ogbonna</h1>
+    <p>Hello! I’m a web developer with a strong focus on building clean, functional, and visually polished web experiences. I enjoy turning ideas into well-structured, user-friendly interfaces and continuously improving my craft through real-world projects.</p>
+            <a href="#work" class="cta-button">Let's get started →</a>
+        </div>
+        <div class="hero-image">
+            <!-- Replace 'your-image.jpg' with your actual image path -->
+            <img src="PERSONAL PICTURE.jpeg" alt="Desire Ogbonna">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="projects-section">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <p>A showcase of my recent work across web development, design, and full-stack applications.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="TaskApp.png" alt="Project">
+            </div>
+            <div class="project-content">
+                <h3>Task App </h3>
+                <div class="project-type">Frontend UI</div>
+                <p>A simple and clean task management interface built to practice frontend structure, layout, and basic user interaction.
+                     The project focuses on visual clarity and usability using static frontend technologies.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-item">HTML</span>
+                    <span class="tech-item">CSS</span>
+                    <span class="tech-item">JavaScript</span>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/The4light/Task" class="project-btn github-btn" target="_blank">
+                      <span><img src="github.svg" alt="github logo" width="20" height="20"></span>GitHub
+                    </a>
+                    <a href="https://task-three-hazel-38.vercel.app/" class="project-btn live-btn" target="_blank">
+                        <span>🚀</span> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="Rectangle.png" alt="Project">
+            </div>
+            <div class="project-content">
+                <h3>Konga App Redesign</h3>
+                <div class="project-type">UI/UX Design (Group Project) </div>
+                <p>A redesigned user interface for the Konga mobile app focused on improving visual clarity, 
+                    navigation flow, and overall shopping experience. The redesign explores a more modern layout, 
+                    clearer product presentation, and smoother user interaction.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-item">Figma</span>
+                    <span class="tech-item">UI/UX</span>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://www.figma.com/design/W0FESSOWETos32EecCj4fZ/konja-App-pages-redesign?node-id=96-2456&p=f&t=zqYBMz5Y8yyBBXo7-0" class="project-btn github-btn" target="_blank">
+                        <span>✨</span> Figma
+                    </a>
+                    <a href="https://www.figma.com/proto/W0FESSOWETos32EecCj4fZ/konja-App-pages-redesign?node-id=410-6691&t=zqYBMz5Y8yyBBXo7-0&scaling=min-zoom&content-scaling=fixed&page-id=96%3A2456" class="project-btn live-btn" target="_blank">
+                        <span>🚀</span> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="chirp.png" alt="Project">
+            </div>
+            <div class="project-content">
+                <h3>Chirp</h3>
+                <div class="project-type">Full-Stack Web Application</div>
+                <p>A social media web application that allows users to create posts and view a shared feed. The project combines a functional backend with a clean frontend interface,
+                     focusing on core social features, data flow, and API integration.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-item">React</span>
+                    <span class="tech-item">Express</span>
+                    <span class="tech-item">MongoDB</span>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/The4light/Chirp-main" class="project-btn github-btn" target="_blank">
+                        <span><img src="github.svg" alt="github logo" width="20" height="20"></span></span> GitHub
+                    </a>
+                    <a href="https://chirp-main.vercel.app/" class="project-btn live-btn" target="_blank">
+                        <span>🚀</span> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+          <!-- See More Projects Button -->
+        <div class="see-more-container">
+            <a href="projects.html" class="see-more-btn">See More Projects →</a>
+        </div>      
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <p>Technologies and languages I work with to bring ideas to life.</p>
+        </div>
+        
+        <!-- Skills Tabs -->
+        <div class="skills-tabs">
+            <button class="tab-button active" data-tab="frontend">Frontend</button>
+            <button class="tab-button" data-tab="backend">Backend</button>
+            <button class="tab-button" data-tab="database">Database</button>
+            <button class="tab-button" data-tab="tools">Tools</button>
+            <button class="tab-button" data-tab="design">Design</button>
+            <button class="tab-button" data-tab="languages">Languages</button>
+        </div>
+
+        <!-- Frontend Tab Content -->
+        <div class="tab-content active" id="frontend">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">{ }</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Semantic markup and modern styling with responsive design principles</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+ features, DOM manipulation, and modern JavaScript development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <p>Building dynamic and interactive user interfaces with component-based architecture</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">V</div>
+                    <h3>Vue.js</h3>
+                    <p>Progressive JavaScript framework for building modern web applications</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backend Tab Content -->
+        <div class="tab-content" id="backend">
+            <div class="skills-grid">
+                <div class="skill-card featured">
+                    <div class="skill-icon">⬢</div>
+                    <h3>Node.js</h3>
+                    <p>Intermediate to semi-advanced proficiency in building CRUD applications, RESTful APIs, and server-side development</p>
+                    <span class="skill-badge">Production Ready</span>
+                </div>
+                <div class="skill-card learning">
+                    <div class="skill-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>Currently learning for backend development. Working on a speech recognition project for deployment</p>
+                    <span class="skill-badge learning-badge">In Progress</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">PHP</div>
+                    <h3>PHP</h3>
+                    <p>Foundational knowledge in server-side scripting and web development</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Database Tab Content -->
+        <div class="tab-content" id="database">
+            <div class="skills-grid">
+                <div class="skill-card featured">
+                    <div class="skill-icon">DB</div>
+                    <h3>MongoDB</h3>
+                    <p>Complete proficiency in NoSQL database management, schema design, and integration with Node.js applications</p>
+                    <span class="skill-badge">Completed</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools Tab Content -->
+        <div class="tab-content" id="tools">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><span><img src="github.svg" alt="github logo" width="50" height="50"></span></div>
+                    <h3>GitHub</h3>
+                    <p>Version control, collaboration, and code repository management</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">▲</div>
+                    <h3>Vercel</h3>
+                    <p>Frontend deployment and hosting with continuous integration</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Render</h3>
+                    <p>Full-stack application deployment and cloud hosting</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚂</div>
+                    <h3>Railway</h3>
+                    <p>Infrastructure deployment and backend service hosting</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">◆</div>
+                    <h3>Netlify</h3>
+                    <p>Static site deployment with automated builds and CDN</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Hostinger</h3>
+                    <p>Web hosting and domain management</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Design Tab Content -->
+        <div class="tab-content" id="design">
+            <div class="skills-grid">
+                <div class="skill-card featured">
+                    <div class="skill-icon">✨</div>
+                    <h3>Figma</h3>
+                    <p>UI/UX design, prototyping, and creating intuitive user experiences with modern design principles</p>
+                    <span class="skill-badge">UI/UX</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Languages Tab Content -->
+        <div class="tab-content" id="languages">
+            <div class="skills-grid">
+                <div class="skill-card learning">
+                    <div class="skill-icon">C</div>
+                    <h3>C</h3>
+                    <p>Foundational understanding of variables, constants, loops, functions, and operations. Building strong programming fundamentals</p>
+                    <span class="skill-badge learning-badge">Learning Fundamentals</span>
+                </div>
+                <div class="skill-card learning">
+                    <div class="skill-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>Core concepts including variables, constants, loops, and functions. Actively expanding knowledge for backend development and speech recognition project</p>
+                    <span class="skill-badge learning-badge">Actively Learning</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Basic programming concepts with hands-on experience in Turtle graphics, Pygame for game development, and NumPy for numerical computing</p>
+                    <span class="skill-badge">Foundational</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Work -->
+    <section class="recent-work">
+        <div class="section-header">
+            <h2>Current & Ongoing Projects</h2>
+          <p>Highlighted projects showcasing my current focus on frontend development, UI design, 
+            and full-stack application building.</p>
+
+
+        </div>
+        <div class="work-grid">
+            <div class="work-card">
+                <div class="work-image">
+                    <img src="news.png" alt="Work">
+                </div>
+                <div class="work-content">
+                    <h3>World News App</h3>
+                    <p>A news web application that displays global headlines and articles using a world news API. The interface focuses on clear content layout, category-based browsing, 
+                        and readable presentation, with backend integration currently in progress.</p>
+                    
+                    <h4>Status</h4>
+                    <p> --Backend integration in progress--</p>
+                    <a href="https://news-mu-taupe.vercel.app/#" class="work-button" target="_blank">View →</a>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop" alt="Work">
+                </div>
+                <div class="work-content">
+                    <h3>Work name here</h3>
+                    <p>Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="#" class="work-button" target="_blank"> View →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="contact-container">
+            <form>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label>Mobile</label>
+                    <input type="tel" placeholder="+234 xxx xxxx xxx">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea placeholder="Type your message..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit →</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        Made with ❤️ in Lagos
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
