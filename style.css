@@ -84,18 +84,41 @@ nav {
 .social-icons {
     display: flex;
     gap: 20px;
+}
+
+.social-icon {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #2a2a2a; /* subtle contrast against nav */
+    transition: all 0.3s ease;
+    border: 1px solid #333;
 }
 
-.social-icons a {
-    color: #999;
-    font-size: 1.2rem;
-    transition: color 0.3s;
+.social-icon.github {
+    background: #7ed321; /* your accent green! */
+    color: #1a1a1a;
+    border-color: #7ed321;
 }
 
-.social-icons a:hover {
-    color: #fff;
+.social-icon img {
+    filter: invert(0%) brightness(0) saturate(100%); /* ensures icon is black on green */
 }
+
+.social-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(126, 211, 33, 0.3);
+}
+
+/* Optional: if your GitHub SVG is white by default, use this instead */
+/*
+.social-icon.github img {
+    filter: brightness(0) invert(1); // makes it white → then you'd use dark bg
+}
+*/
 
 /* Hero Section */
 .hero {
